@@ -8,7 +8,6 @@ import io.scif.img.SCIFIOImgPlus;
 import java.util.Iterator;
 import java.util.List;
 
-
 import net.imagej.ImageJ;
 import net.imglib2.algorithm.labeling.ConnectedComponents;
 import net.imglib2.algorithm.labeling.ConnectedComponents.StructuringElement;
