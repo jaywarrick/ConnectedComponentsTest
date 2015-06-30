@@ -8,6 +8,7 @@ import io.scif.img.SCIFIOImgPlus;
 import java.util.Iterator;
 import java.util.List;
 
+
 import net.imagej.ImageJ;
 import net.imglib2.algorithm.labeling.ConnectedComponents;
 import net.imglib2.algorithm.labeling.ConnectedComponents.StructuringElement;
@@ -30,6 +31,7 @@ public class ConnectedComponentsTest {
 	public static void intersect() throws ImgIOException
 	{
 		// The image [100 X 100 pixels] is downloadable at https://drive.google.com/file/d/0BzopfqjGpdu8Ukp5eXpoUEFDaEE/view?usp=sharing
+		// and is also available in src/main/resources/test folder
 		ImageJ ij = new ImageJ();
 		ImgOpener imgOpener = new ImgOpener(ij.getContext());
 		List<SCIFIOImgPlus < UnsignedByteType >> images = imgOpener.openImgs("/Users/jaywarrick/Pictures/TIFFS/Dot.tif", new UnsignedByteType());
